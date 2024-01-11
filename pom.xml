@@ -71,7 +71,7 @@
                 <version>${maven.compiler.plugin}</version>
                 <inherited>true</inherited>
                 <configuration>
-                    <release>12</release>
+                    <release>11</release>
                 </configuration>
             </plugin>
         </plugins>
