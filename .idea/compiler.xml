@@ -6,7 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="nats-kafka-connect" />
+        <module name="nats-jetstream-source-connector" />
+        <module name="nats-jetstream-sink-connector" />
       </profile>
     </annotationProcessing>
   </component>

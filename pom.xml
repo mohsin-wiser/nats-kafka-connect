@@ -7,15 +7,16 @@
 
     <groupId>com.wiser.kafkaconnect.nats.jetstream</groupId>
     <artifactId>nats-kafka-connector</artifactId>
+    <packaging>pom</packaging>
     <description>Building Apache Kafka Connectors</description>
     <version>1.0</version>
 
     <properties>
-        <connect.api.version>3.3.2</connect.api.version>
-        <junit.jupiter.version>5.9.2</junit.jupiter.version>
-        <testcontainers.version>1.17.6</testcontainers.version>
-        <maven.compiler.plugin>3.10.1</maven.compiler.plugin>
-        <slf4j-api.version>2.0.6</slf4j-api.version>
+        <connect.api.version>3.6.1</connect.api.version>
+        <junit.jupiter.version>5.10.1</junit.jupiter.version>
+        <testcontainers.version>1.19.3</testcontainers.version>
+        <maven.compiler.plugin>3.12.1</maven.compiler.plugin>
+        <slf4j-api.version>2.0.11</slf4j-api.version>
     </properties>
 
     <dependencies>
@@ -70,10 +71,15 @@
                 <version>${maven.compiler.plugin}</version>
                 <inherited>true</inherited>
                 <configuration>
-                    <release>11</release>
+                    <release>12</release>
                 </configuration>
             </plugin>
         </plugins>
     </build>
+
+    <modules>
+        <module>nats-jetstream-source-connector</module>
+        <module>nats-jetstream-sink-connector</module>
+    </modules>
 
 </project>

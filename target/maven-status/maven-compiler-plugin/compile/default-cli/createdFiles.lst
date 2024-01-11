@@ -1,0 +1,5 @@
+com/wiser/kafkaconnect/nats/jetstream/PropertiesUtil.class
+com/wiser/kafkaconnect/nats/jetstream/NatsJetStreamConnectorTask.class
+com/wiser/kafkaconnect/nats/jetstream/NatsJetStreamConnectorConfig.class
+com/wiser/kafkaconnect/nats/jetstream/NewPartitionsCheckerThread.class
+com/wiser/kafkaconnect/nats/jetstream/NatsJetStreamConnector.class
