@@ -1,8 +1,7 @@
-package com.wiser.kafkaconnect.nats.jetstream.source;
+package com.wiser.kafkaconnect.nats.jetstream;
 
-import com.wiser.kafkaconnect.nats.jetstream.source.NatsJetStreamSourceConnector;
 import com.wiser.kafkaconnect.nats.jetstream.source.NatsJetStreamSourceConnectorTask;
-import com.wiser.kafkaconnect.nats.jetstream.source.PropertiesUtil;
+import com.wiser.kafkaconnect.nats.jetstream.utils.PropertiesUtil;
 import org.apache.kafka.connect.source.SourceRecord;
 import org.junit.Test;
 

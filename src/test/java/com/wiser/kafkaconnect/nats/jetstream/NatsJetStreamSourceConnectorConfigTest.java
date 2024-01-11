@@ -1,4 +1,4 @@
-package com.wiser.kafkaconnect.nats.jetstream.source;
+package com.wiser.kafkaconnect.nats.jetstream;
 
 import com.wiser.kafkaconnect.nats.jetstream.source.NatsJetStreamSourceConnectorConfig;
 import org.apache.kafka.common.config.ConfigException;

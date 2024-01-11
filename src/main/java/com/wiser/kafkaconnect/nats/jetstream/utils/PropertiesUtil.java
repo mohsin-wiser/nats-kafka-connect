@@ -1,4 +1,4 @@
-package com.wiser.kafkaconnect.nats.jetstream.source;
+package com.wiser.kafkaconnect.nats.jetstream.utils;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

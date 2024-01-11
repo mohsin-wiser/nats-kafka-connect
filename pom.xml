@@ -76,10 +76,4 @@
             </plugin>
         </plugins>
     </build>
-
-    <modules>
-        <module>nats-jetstream-source-connector</module>
-        <module>nats-jetstream-sink-connector</module>
-    </modules>
-
 </project>

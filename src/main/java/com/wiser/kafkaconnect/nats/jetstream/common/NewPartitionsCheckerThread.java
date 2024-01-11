@@ -1,4 +1,4 @@
-package com.wiser.kafkaconnect.nats.jetstream.source;
+package com.wiser.kafkaconnect.nats.jetstream.common;
 
 import org.apache.kafka.connect.connector.ConnectorContext;
 import org.slf4j.Logger;

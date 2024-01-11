@@ -1,5 +1,9 @@
-package com.wiser.kafkaconnect.nats.jetstream.source;
+package com.wiser.kafkaconnect.nats.jetstream;
 
+import com.wiser.kafkaconnect.nats.jetstream.common.NewPartitionsCheckerThread;
+import com.wiser.kafkaconnect.nats.jetstream.source.NatsJetStreamSourceConnectorConfig;
+import com.wiser.kafkaconnect.nats.jetstream.source.NatsJetStreamSourceConnectorTask;
+import com.wiser.kafkaconnect.nats.jetstream.utils.PropertiesUtil;
 import org.apache.kafka.common.config.Config;
 import org.apache.kafka.common.config.ConfigDef;
 import org.apache.kafka.common.config.ConfigValue;

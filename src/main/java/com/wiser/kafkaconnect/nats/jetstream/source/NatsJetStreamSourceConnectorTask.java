@@ -1,5 +1,6 @@
 package com.wiser.kafkaconnect.nats.jetstream.source;
 
+import com.wiser.kafkaconnect.nats.jetstream.utils.PropertiesUtil;
 import org.apache.kafka.connect.data.Schema;
 import org.apache.kafka.connect.data.SchemaBuilder;
 import org.apache.kafka.connect.data.Struct;
